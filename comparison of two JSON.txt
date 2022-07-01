@@ -1,0 +1,9 @@
+1. How to compare two JSON have the same properties without order?
+	a. var obj1 = {name : "person 1", age : 5};
+	b. var obj2 = {age : 5, name : "person 1"};
+
+         =>	The obj 1&2 are same.
+         =>	In obj 1 first we will get output "age" and after the "name" will get print, as a property obj 1 will print output from ascending order.
+         =>	In obj 2 it lies in correct order so "age" will print first and "name" will print next.
+
+         =>  	So both are same in values but when it comes to order both are different.
